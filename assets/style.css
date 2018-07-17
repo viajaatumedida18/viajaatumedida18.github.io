@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Ceviche+One");
+@import url("https://fonts.googleapis.com/css?family=Ceviche+One|Righteous");
 
 body {
     color: #666;
@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6 {
 .header .pure-menu {
     border-bottom-color: black;
     border-radius: 0;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Righteous', cursive;
     font-size: 1.5em;
 }
 
@@ -80,14 +80,16 @@ h1,h2,h3,h4,h5,h6 {
         font-weight: 400;
         text-transform: uppercase;
         letter-spacing: 0.05em;
-        font-size: 24px;
-        font-family: 'Abril Fatface', cursive;
+        font-size: 1.2em;
+        font-family: 'Righteous', cursive;
     }
 
     .text-box-subhead {
         font-weight: normal;
         letter-spacing: 0.1em;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
+        font-family: 'Righteous', cursive;
+        font-size: 1em;
     }
 
 .form-box {
@@ -133,15 +135,9 @@ h1,h2,h3,h4,h5,h6 {
   color: #313131;
 }
 
-.calculator input, button{
-  color: #000000;
+#desc{
+  padding-top: 0em;
 }
-
-.calculator button{
-  background-color: #FFBE4B;
-  margin-top: 0.3em;
-}
-
 @media (min-width: 30em) {
     .photo-box, .text-box {
         text-align: left;
@@ -153,14 +149,9 @@ h1,h2,h3,h4,h5,h6 {
 
 
 }
-@media (max-width: 370px){
+@media (max-width: 470px){
 
-  .calculator{
-    font-size: 0.7em;
+  .text-box-subhead{
+    font-size: 0.8em;
   }
-}
-
-#prueba img{
-    height: 150px;
-    width: 150px;
 }
