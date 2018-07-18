@@ -90,6 +90,8 @@ h1,h2,h3,h4,h5,h6 {
         /* text-transform: uppercase; */
         font-family: 'Righteous', cursive;
         font-size: 1em;
+        margin-top: 0em;
+        margin-bottom: 0.5em;
     }
 
 .form-box {
@@ -136,8 +138,37 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #desc{
-  padding-top: 0em;
+  padding: 0em 1em 1.5em 1em;
 }
+
+#textDesc{
+  outline: 5px double rgb(255, 190, 94);
+  outline-offset: -5px;
+}
+
+#ve1{
+  color: #f4d742;
+}
+
+#ve2{
+  color: #2b4de5;
+}
+
+#ve3{
+  color: #c10b0b;
+}
+#ve4{
+  color: #f4d742;
+}
+
+#ve5{
+  color: #2b4de5;
+}
+
+#ve6{
+  color: #c10b0b;
+}
+
 @media (min-width: 30em) {
     .photo-box, .text-box {
         text-align: left;
@@ -146,12 +177,13 @@ h1,h2,h3,h4,h5,h6 {
     .photo-box-thin {
         height: 250px;
     }
-
-
 }
+
+
 @media (max-width: 470px){
 
   .text-box-subhead{
     font-size: 0.8em;
+
   }
 }

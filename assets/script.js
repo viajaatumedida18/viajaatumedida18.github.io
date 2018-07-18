@@ -1,5 +1,5 @@
 var imgCant = 20;
-var imgUsed = [2,3,5,1,8,10,6,11,21,23];
+var imgUsed = [2,3,5,1,22,8,10,6,11,21,23];
 
 // for (let i=0; i <= 9; i++){
 // 	var random = randomNum();
@@ -21,7 +21,7 @@ function randomNum() {
 
 function changeImg(){
 	var randImg = randomNum();
-	var change = Math.floor(Math.random() * 9 + 1);
+	var change = Math.floor(Math.random() * 10 + 1);
 	imgUsed[change] = randImg;
 	$('#img'+change).fadeOut("fast").attr("src","img/venezuela"+randImg+".jpg").fadeIn("fast");
 	console.log(imgUsed);
