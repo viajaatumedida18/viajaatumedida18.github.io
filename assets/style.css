@@ -97,8 +97,9 @@ h1,h2,h3,h4,h5,h6 {
     }
 
     .text-box-subhead a{
-      color: #51c3f3;
+      color: #007faa;
     }
+
 
 .form-box {
     text-align: center;
@@ -140,7 +141,8 @@ h1,h2,h3,h4,h5,h6 {
   margin-left: 1em;
   font-size: 1.5em;
   text-decoration: none;
-  color: #313131;
+  /* color: #313131; */
+  color: #007faa;
 }
 
 #desc{
@@ -162,6 +164,10 @@ h1,h2,h3,h4,h5,h6 {
 
 #ve6{
   color: #c10b0b;
+}
+
+.contact-foot{
+  margin-top: 1em;
 }
 
 @media (min-width: 30em) {
