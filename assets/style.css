@@ -21,6 +21,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .pure-menu-link {
     padding: 1em .7em;
+    color: #007faa;
 }
 
 .photo-box, .text-box {
@@ -71,7 +72,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .text-box {
     background: rgb(49, 49, 49); /* bluish grey */
-    color: rgb(255, 190, 94); /* steel blue */
+    /* color: rgb(255, 190, 94);*/
+    color: #007faa;
 }
 
     .text-box-head {
@@ -92,6 +94,10 @@ h1,h2,h3,h4,h5,h6 {
         font-size: 1em;
         margin-top: 0em;
         margin-bottom: 0.5em;
+    }
+
+    .text-box-subhead a{
+      color: #51c3f3;
     }
 
 .form-box {
@@ -142,21 +148,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #textDesc{
-  outline: 5px double rgb(255, 190, 94);
+  outline: 5px double #007faa;
   outline-offset: -5px;
 }
 
-#ve1{
-  color: #f4d742;
-}
-
-#ve2{
-  color: #2b4de5;
-}
-
-#ve3{
-  color: #c10b0b;
-}
 #ve4{
   color: #f4d742;
 }
